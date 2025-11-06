@@ -1,0 +1,16 @@
+{
+  "include": [
+    "app"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/.venv",
+    "**/venv",
+    "**/node_modules"
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportGeneralTypeIssues": false,
+  "pythonVersion": "3.11",
+  "pythonPlatform": "Windows"
+}
