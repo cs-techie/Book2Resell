@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from ..db import get_db
 from ..deps import get_current_admin
-from ..models import Book, User
+from ..models import Book, User  # type: ignore[attr-defined]
 
 
 router = APIRouter(prefix="/api/admin", tags=["admin"])

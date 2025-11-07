@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 
 from ..auth import get_password_hash
 from ..core.config import settings
-from ..models import User, Book
+from ..models import User, Book  # pyright: ignore[reportAttributeAccessIssue]
 
 
 def seed(db: Session) -> None:

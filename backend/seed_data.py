@@ -2,6 +2,7 @@
 Seed database with sample data for testing
 """
 from app.db import SessionLocal, engine, Base
+# pyright: reportAttributeAccessIssue=false
 from app.models import User, Book
 from app.auth import get_password_hash
 

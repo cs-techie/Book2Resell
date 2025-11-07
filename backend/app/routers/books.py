@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 from .. import schemas
 from ..db import get_db
 from ..deps import get_current_user
-from ..models import Book, User
+from ..models import Book, User  # type: ignore[attr-defined]
 
 
 router = APIRouter(prefix="/api/books", tags=["books"])

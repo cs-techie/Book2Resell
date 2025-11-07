@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from .. import schemas
 from ..auth import create_access_token, get_password_hash, verify_password
 from ..db import get_db
-from ..models import User
+from ..models import User  # pyright: ignore[reportAttributeAccessIssue]
 
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])

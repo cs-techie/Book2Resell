@@ -11,6 +11,7 @@
   "reportMissingImports": true,
   "reportMissingTypeStubs": false,
   "reportGeneralTypeIssues": false,
+  "reportAttributeAccessIssue": false,
   "pythonVersion": "3.11",
   "pythonPlatform": "Windows"
 }

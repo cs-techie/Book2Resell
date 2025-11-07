@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 
 from .auth import decode_token
 from .db import get_db
-from .models import User
+from .models import User  # type: ignore[attr-defined]
 
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login")

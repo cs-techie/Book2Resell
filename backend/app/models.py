@@ -3,6 +3,9 @@ from sqlalchemy.orm import relationship
 from .db import Base
 
 
+__all__ = ["User", "Book"]
+
+
 class User(Base):
     __tablename__ = "users"
 
