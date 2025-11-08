@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     secret_key: str = "CHANGE_ME_DEV_ONLY"
     access_token_expire_minutes: int = 60 * 24
     algorithm: str = "HS256"
-    database_url: str = "sqlite:///./book2resell.db"
+    database_url: str = "postgresql://postgres.jelloiizczaxugxaxavr:12ka442ka1AS@aws-1-ap-southeast-2.pooler.supabase.com:6543/postgres"
     admin_email: str = "admin@book2resell.com"
     admin_password: str = "admin123"
     cors_origins: str = "http://localhost:5173,http://localhost:3000"
